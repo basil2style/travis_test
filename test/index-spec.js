@@ -7,4 +7,10 @@ describe('calculator', function() {
             assert.equal(result, 2);
         });
     });
+    describe('sub function', function() {
+        it('sub numbers', function() {
+            var result = calculator.sub(2,1);
+            assert.equal(result,1)
+        })
+    })
 });
